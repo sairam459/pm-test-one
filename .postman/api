@@ -10,10 +10,9 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"one/dd/dd.yaml","metaData":{}}
-files[] = {"path":"one/ee/ee.yaml","metaData":{}}
-files[] = {"path":"one/ss.yml","metaData":{}}
-files[] = {"path":"test/index.yaml","metaData":{}}
+files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"New.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index.yaml
