@@ -10,8 +10,8 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"ssindex.yaml","metaData":{}}
+files[] = {"path":"index.proto","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:3
-rootFiles[] = ssindex.yaml
+type = proto:3
+rootFiles[] = index.proto
