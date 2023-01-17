@@ -12,4 +12,5 @@ rootDirectory = postman/collections
 rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
-type = openapi:3
+type = wsdl:1
+rootFiles[] = wsdl1_1.wsdl
