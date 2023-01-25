@@ -5,14 +5,10 @@ id = 93d142b8-eec7-4651-b950-47aa418d37d2
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"869575-bc06a9b1-2b03-49c6-b9ee-7e700e270448","path":"vgg.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-rootFiles[] = index.yaml
-type = openapi:3
