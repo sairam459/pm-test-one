@@ -1,0 +1,29 @@
+#%RAML 1.0
+title: 'ram1.0'
+version: '1'
+baseUri: http://localhost:3000
+mediaType: application/json
+types:
+    User:
+        type: object
+        properties:
+            id:
+                required: true
+                type: integer
+            name:
+                required: true
+                type: string
+/users:
+    get:
+        description: List all Users matching query criteria.
+        queryParameters:
+            name:
+                required: false
+                type: string
+                example: "John"
+        responses:
+            200:
+                body:
+                    application/json:
+                        type: User
+                        example: { "id": 1, "name": "John" }

@@ -10,8 +10,8 @@ rootDirectory = postman/collections
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"ram1_0.raml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:3
-rootFiles[] = index.yaml
+rootFiles[] = ram1_0.raml
+type = raml:1
