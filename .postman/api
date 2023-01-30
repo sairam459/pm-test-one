@@ -5,16 +5,10 @@ id = 93d142b8-eec7-4651-b950-47aa418d37d2
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"869575-6c4f20f1-ebe1-4d3e-9f4a-a60679483ef2","path":"ff(1).json","metaData":{}}
-files[] = {"id":"869575-57770f64-60a6-46ea-8277-d68cc8a6a69e","path":"ff.json","metaData":{}}
-files[] = {"id":"869575-feb4d715-cfcb-40bf-b56a-3fb3b17fd37e","path":"tt.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = openapi:2
-rootFiles[] = index.yaml
