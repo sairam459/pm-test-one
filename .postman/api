@@ -12,5 +12,3 @@ rootDirectory = postman/collections
 rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
-type = graphql
-rootFiles[] = index.graphql
